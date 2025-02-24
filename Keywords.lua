@@ -1,5 +1,5 @@
 local module = {
-	var = true,
+	["var"] = true,
 	["while"] = true,
 	["if"] = true,
 	["function"] = true,

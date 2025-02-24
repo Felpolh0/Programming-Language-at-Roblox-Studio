@@ -1,6 +1,6 @@
-local Lex = require(script.Lexer)
-local Parse = require(script.Parser)
-local Interpret = require(script.Interpreter)
+local Lex = require(script.Lexer) -- Gets lexer
+local Parse = require(script.Parser) -- Gets parser
+local Interpret = require(script.Interpreter) -- Gets interpreter
 
 local Console = require(script.Parent.Parent.Console.Console)
 
